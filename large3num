@@ -1,0 +1,13 @@
+a=int(input("Enter the value of a"))
+b=int(input("Enter the value of b"))
+c=int(input("Enter the value of c"))
+int max;
+if(a>b AND a>c)
+  max=a
+elseif(b>a AND b>c)
+  max=b
+elseif(c>a AND c>b)
+  max=c
+else
+  print(Inadequate)
+print(max)  
